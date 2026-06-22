@@ -173,6 +173,14 @@ Use Tera Term, PuTTY, or another serial terminal with the following settings:
 | Stop bits    | `1`      |
 | Flow control | `None`   |
 
+To view UART output with Tera Term:
+
+1. Connect the Basys 3 board to the PC using the USB cable.
+2. Open Tera Term and select **Serial**.
+3. Choose the COM port corresponding to the Basys 3 board.
+4. Apply the UART settings above.
+5. Program the FPGA and press `BTNC` after setting the switches. The terminal should display messages such as `USER0 PASS`, `USER0 FAIL`, or `USER0 LOCK`.
+
 Example UART output:
 
 ```text
